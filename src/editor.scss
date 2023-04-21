@@ -1,0 +1,22 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-divisiononeblocks input[type="text"] {
+	font-family: Gilbert, sans-serif;
+	font-size: 64px;
+	color: inherit;
+	background: inherit;
+	border: 0;
+}
+
+.slider .block-editor-block-list__layout {
+	display: flex;
+	overflow-x: hidden;
+}
+
+.slider .block-editor-block-list__layout .block-editor-block-list__block {
+	flex: 0 0 100%;
+}
