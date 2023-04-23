@@ -234,7 +234,7 @@ registerBlockType("divisiononeblocks/slider", {
           </Toolbar>
         </BlockControls>
         <div className="slider">
-          <InnerBlocks template={TEMPLATE} />
+          <InnerBlocks  template={TEMPLATE} />
         </div>
       </>
     );

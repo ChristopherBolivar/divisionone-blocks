@@ -15,38 +15,6 @@ import { registerBlockType } from '@wordpress/blocks';
  */
 import './style.scss';
 import './editor.scss';
-
-/**
- * Internal dependencies
- */
-import Edit from './edit';
-import save from './save';
-import metadata from './block.json';
-
 import "./01-Slide/index.js";
 import "./02-Slider/index.js";
 
-/**
- * Every block starts by registering a new block type definition.
- *
- * @see https://developer.wordpress.org/block-editor/developers/block-api/#registering-a-block
- */
-registerBlockType( metadata.name, {
-	/**
-	 * Used to construct a preview for the block to be shown in the block inserter.
-	 */
-	example: {
-		attributes: {
-			message: 'Division One Blocks',
-		},
-	},
-	/**
-	 * @see ./edit.js
-	 */
-	edit: Edit,
-
-	/**
-	 * @see ./save.js
-	 */
-	save,
-} );

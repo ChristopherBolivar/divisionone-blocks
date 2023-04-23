@@ -1,6 +1,7 @@
 const { __ } = wp.i18n;
 const { registerBlockType } = wp.blocks;
-const { RichText, InspectorControls, BlockControls } = wp.blockEditor;
+const {  } = wp.blockEditor;
+import { RichText, InspectorControls } from '@wordpress/block-editor';
 const { PanelBody, TextControl, IconButton, Toolbar } = wp.components;
 
 registerBlockType("divisiononeblocks/slide", {
